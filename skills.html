@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+    <style>
+        .skill-icon {
+            width: 60px;
+            height: 60px;
+            margin: 35px;
+            display: inline-block;
+            position: relative;
+            cursor: pointer;
+        }
+
+        .skill-icon img {
+            width: 100%;
+            height: 100%;
+            opacity: 0.8;
+            transition: opacity 0.3s ease;
+        }
+
+        .skill-icon:hover img {
+            opacity: 1;
+        }
+
+        .skill-popup {
+            position: absolute;
+            top: 100%;
+            left: 50%;
+            transform: translateX(-50%);
+            background-color: #fff;
+            padding: 10px;
+            border-radius: 5px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+            opacity: 0;
+            visibility: hidden;
+            transition: opacity 0.3s ease, visibility 0.3s ease;
+        }
+
+        .skill-icon:hover .skill-popup {
+            opacity: 1;
+            visibility: visible;
+        }
+
+        .skill-popup h4 {
+            margin-top: 0;
+        }
+    </style>
+</head>
+<body>
+    <header class="bg-dark text-light py-3">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <h1>Portfolio.</h1>
+                </div>
+                <div class="col-md-6 text-right">
+                    <nav class="nav">
+                        <a class="nav-link" href="index.html">Home</a>
+                        <a class="nav-link" href="artandworks.html">Art and works</a>
+                        <a class="nav-link" href="skills.html">Skills</a>
+                        
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </header>
+    <div class="container mt-5">
+        <h2 class="text-center mb-4">Skills</h2>
+        <div class="row justify-content-center"> 
+            <div class="col-md-2">
+                <div class="skill-icon">
+                    <img src="https://img.icons8.com/?size=100&id=20909&format=png&color=000000" alt="HTML5">
+                    <div class="skill-popup">
+                        <h4>HTML5</h4>
+                        <p>Hyper Text Markup Language 5</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-2">
+                <div class="skill-icon">
+                    <img src="https://img.icons8.com/?size=100&id=11935&format=png&color=000000" alt="CSS3">
+                    <div class="skill-popup">
+                        <h4>CSS3</h4>
+                        <p>Cascading Style Sheets 3</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-2">
+                <div class="skill-icon">
+                    <img src="https://img.icons8.com/?size=100&id=108784&format=png&color=000000" alt="JavaScript">
+                    <div class="skill-popup">
+                        <h4>JavaScript</h4>
+                        <p>Programming language</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row justify-content-center">
+            <div class="col-md-2">
+                <div class="skill-icon">
+                    <img src="https://img.icons8.com/?size=100&id=13677&format=png&color=000000" alt="Photoshop">
+                    <div class="skill-popup">
+                        <h4>Photoshop</h4>
+                        <p>Image editing software</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-2">
+                <div class="skill-icon">
+                    <img src="https://img.icons8.com/?size=100&id=13631&format=png&color=000000" alt="Illustrator">
+                    <div class="skill-popup">
+                        <h4>Illustrator</h4>
+                        <p>Vector graphics editor</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row justify-content-center mt-3">
+            <div class="col-md-2">
+                <div class="skill-icon">
+                    <img src="https://img.icons8.com/?size=100&id=13631&format=png&color=000000" alt="Adobe XD">
+                    <div class="skill-popup">
+                        <h4>Adobe XD</h4>
+                        <p>Vector graphics editor</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-2">
+                <div class="skill-icon">
+                    <img src="https://img.icons8.com/?size=100&id=e57Y1CnsOasB&format=png&color=000000" alt="Premiere Pro">
+                    <div class="skill-popup">
+                        <h4>Premiere Pro</h4>
+                        <p>Video editing software</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-2">
+                <div class="skill-icon">
+                    <img src="https://img.icons8.com/?size=100&id=81726&format=png&color=000000" alt="PowerPoint">
+                    <div class="skill-popup">
+                        <h4>PowerPoint</h4>
+                        <p>Presentation software</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-2">
+                <div class="skill-icon">
+                    <img src="https://img.icons8.com/?size=100&id=13674&format=png&color=000000" alt="Word">
+                    <div class="skill-popup">
+                        <h4>Word</h4>
+                        <p>Word processor</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-2">
+                <div class="skill-icon">
+                    <img src="https://img.icons8.com/?size=100&id=12599&format=png&color=000000" alt="GitHub">
+                    <div class="skill-popup">
+                        <h4>GitHub</h4>
+                        <p>Version control platform</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-2">
+                <div class="skill-icon">
+                    <img src="https://img.icons8.com/?size=100&id=20906&format=png&color=000000" alt="GitHub">
+                    <div class="skill-popup">
+                        <h4>Git</h4>
+                        <p>Version control platform</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row justify-content-center mt-3">
+            <div class="col-md-2">
+                <div class="skill-icon">
+                    <img src="https://img.icons8.com/?size=100&id=zfHRZ6i1Wg0U&format=png&color=000000" alt="Figma">
+                    <div class="skill-popup">
+                        <h4>collaborative design</h4>
+                        <p></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <footer>
+        <p>&copy; 2024 Phoolchand Singh. All rights reserved.</p>
+      </footer>
+</body>
+</html>
