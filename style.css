@@ -6,7 +6,7 @@ body {
 }
 
 header {
-    background-color: #1a1e22;
+    background-color: #104b3d;
 }
 
 .hexagon {
@@ -32,6 +32,7 @@ footer {
     text-align: center;
     background-color:rgb(3, 23, 57);
     color: #fff;
+    
     
     position: relative;
     bottom: 0; /* Moving the footer to the bottom of the screen */
